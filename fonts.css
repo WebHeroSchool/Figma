@@ -6,85 +6,8 @@
 }
 
 @font-face {
-    font-family: 'pt_serifbold_italic';
-    src: url('Fonts/ptserif-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'pt_serifitalic';
-    src: url('Fonts/ptserif-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'pt_serif';
     src: url('Fonts/ptserif-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'frauncesblack_italic';
-    src: url('Fonts/fraunces-italic-variablefont-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fraunces';
-    src: url('Fonts/fraunces-variablefont-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'hind_siliguribold';
-    src: url('Fonts/hindsiliguri-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'hind_siligurilight';
-    src: url('Fonts/hindsiliguri-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'hind_siligurimedium';
-    src: url('Fonts/hindsiliguri-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'hind_siliguriregular';
-    src: url('Fonts/hindsiliguri-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'hind_siligurisemibold';
-    src: url('Fonts/hindsiliguri-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'robotoregular';
-    src: url('Fonts/roboto-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'robotomedium';
-    src: url('Fonts/roboto-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
