@@ -4,20 +4,19 @@ body {
 
 .wrapper {
 	margin: auto;
-	width: 80%;
-	border: dashed 1px red;
+	width: 79%;	
 }
 
 .header {	
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 200px;
+	margin-bottom: 140px;
 }
 
 .logo {
 	position: relative;
-	padding: 40px 3px 40px 44px;	
-  font: bold 27px/31px pt_serif, arial, helvetica, sans-serif;  
+	padding: 40px 3px 40px 40px;	
+  font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;  
 }
 
 .logo__circle {
@@ -48,8 +47,8 @@ body {
 
 .menu__item {
 	position: relative;
-	margin-top: 4px;
-	margin-left: 5px;
+	margin-top: 5px;
+	margin-left: 3px;
 	margin-right: 26px;	
 	font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
 	color: #000;
@@ -92,14 +91,15 @@ body {
 }
 
 .main {  
-  padding: 0 63% 30% 0;  
+  padding: 0 63% 22% 0;  
   background: top right/50% no-repeat url('img/img.svg');  
 }
 
 
 .main__title {	
-	font: bold 72px/87px pt_serifbold, arial, helvetica, sans-serif;
-	margin: 0 0 38px 0;
+	font: bold 65px/87px pt_serifbold, arial, helvetica, sans-serif;
+	margin: 0 0 43px 0;
+	padding: 60px 0 0 0;
 }
 
 .main__title-text_highlight {
@@ -108,13 +108,13 @@ body {
 
 .main__description {
 	font: 400 22px/26px Roboto, arial, helvetica, sans-serif;
-	margin: 0 0 59px 0;
+	margin: 0 0 58px 0;
 	width: 83%;
 }
 
 .main__button {
-	font: 500 20px/21px Roboto, arial, helvetica, sans-serif;
-	padding: 18px 21px;
+	font: 500 19px/21px Roboto, arial, helvetica, sans-serif;
+	padding: 20px 23px;
 	color: #FFF;
 	text-decoration: none;
 	background: #0056EC;
@@ -124,4 +124,24 @@ body {
 
 .main__button:hover {
 	opacity: .5;
+}
+
+.circles {
+	position: absolute;	
+	left: 50%;
+	top: 96%;
+	transform: translateY(-50%);
+	width: 9px;
+	height: 9px;	
+	border-radius: 50%; 
+	background: #C8DBFB;
+	opacity: .7;
+}
+
+.circles__one {
+	left: 49.4%;
+}
+
+.circles__three {
+	left: 50.6%;
 }
