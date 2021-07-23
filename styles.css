@@ -4,18 +4,18 @@ body {
 
 .wrapper {
 	margin: auto;
-	width: 79%;	
+	width: 79.7%;	
 }
 
 .header {	
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 140px;
+	margin-bottom: 130px;
 }
 
 .logo {
 	position: relative;
-	padding: 40px 3px 40px 40px;	
+	padding: 40px 3px 40px 45px;	
   font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;  
 }
 
@@ -47,10 +47,10 @@ body {
 
 .menu__item {
 	position: relative;
-	margin-top: 5px;
-	margin-left: 3px;
+	margin-top: 8px;
+	margin-left: 1px;
 	margin-right: 26px;	
-	font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+	font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
 	color: #000;
 	text-decoration: none;
 }
@@ -73,7 +73,7 @@ body {
 }
 
 .menu__item:last-child {
-	margin-right: 0;
+	margin-right: 5px;
 }
 
 .menu__item_active::after {
@@ -97,9 +97,9 @@ body {
 
 
 .main__title {	
-	font: bold 65px/87px pt_serifbold, arial, helvetica, sans-serif;
-	margin: 0 0 43px 0;
-	padding: 60px 0 0 0;
+	font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
+	margin: 0 0 36px 0;
+	padding: 76px 0 0 0;
 }
 
 .main__title-text_highlight {
@@ -107,14 +107,14 @@ body {
 }
 
 .main__description {
-	font: 400 22px/26px Roboto, arial, helvetica, sans-serif;
-	margin: 0 0 58px 0;
+	font: 400 22px/26px robotoregular, arial, helvetica, sans-serif;
+	margin: 0 0 59px 0;
 	width: 83%;
 }
 
 .main__button {
-	font: 500 19px/21px Roboto, arial, helvetica, sans-serif;
-	padding: 20px 23px;
+	font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
+	padding: 17px 28px;
 	color: #FFF;
 	text-decoration: none;
 	background: #0056EC;
